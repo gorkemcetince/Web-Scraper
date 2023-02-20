@@ -1,8 +1,8 @@
 const PORT = 8000
-const axios = require('axios')
-const cheerio = require('cheerio')
-const express = require('express')
-const nodemon = require('nodemon')
+const axios = require('axios') // http
+const cheerio = require('cheerio') //jquery 
+const express = require('express') // rest api
+const nodemon = require('nodemon') // server refresher
 
 const app = express()
 
